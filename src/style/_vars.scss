@@ -4,3 +4,101 @@ $gray-light: #8f95ac;
 $black-light: #2c2e3e;
 $black-dark: #1e2030;
 $red: #ff2d23;
+
+%h1 {
+    font-family: $font;
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 5.5rem;
+    color: $black-light;
+
+    @media screen and (max-width: 1280px) {
+        font-size: 4.2rem;
+        line-height: 5rem;
+    }
+
+    @media screen and (max-width: 767px) {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+}
+
+%h2 {
+    font-family: $font;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    color: $black-light;
+
+    @media screen and (max-width: 1280px) {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    @media screen and (max-width: 767px) {
+        font-size: 2.6rem;
+        line-height: 3.3rem;
+    }
+}
+
+%h3 {
+    font-family: $font;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: $black-light;
+
+    @media screen and (max-width: 1280px) {
+        font-size: 2rem;
+        line-height: 2.6rem;
+    }
+
+    @media screen and (max-width: 767px) {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+}
+
+%h5 {
+    font-family: $font;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: $black-light;
+
+    @media screen and (max-width: 1280px) {
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+
+    @media screen and (max-width: 767px) {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+}
+
+%big-text {
+    font-family: $font;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 3.4rem;
+    color: $black-light;
+
+    @media screen and (max-width: 1280px) {
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+    }
+
+    @media screen and (max-width: 767px) {
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+    }
+}
+
+%text {
+    font-family: $font;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: $black-light;
+}

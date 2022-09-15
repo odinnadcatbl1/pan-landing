@@ -1,0 +1,42 @@
+.header {
+    background-color: $black-light;
+    padding: 1.5rem 0;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__left {
+    display: flex;
+}
+
+.header__nav {
+    margin-left: 15.3rem;
+}
+
+.header__nav-list {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header__nav-item {
+    &:not(:first-child) {
+        margin-left: 7.7rem;
+    }
+
+    a {
+        @extend %h5;
+        text-decoration: none;
+        padding: 1rem 2.2rem;
+        border-radius: 10rem;
+        color: white;
+
+        &:hover {
+            background-color: rgba($gray-light, 0.2);
+        }
+    }
+}
