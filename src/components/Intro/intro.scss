@@ -1,0 +1,91 @@
+.intro {
+    padding: 12rem 0 17.6rem;
+    background-color: $black-dark;
+}
+
+.intro__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro__left {
+    margin-top: 3rem;
+}
+
+.intro__title {
+    @extend %h1;
+    color: white;
+    padding-right: 25rem;
+}
+
+.intro__form {
+    margin-top: 4.7rem;
+}
+
+.intro__actions {
+    display: flex;
+}
+
+.intro__actions-item {
+    width: 34.5rem;
+    &:nth-child(2) {
+        margin-left: 3rem;
+    }
+}
+
+.intro__actions-title {
+    @extend %text;
+    color: $gray-light;
+    line-height: 2.5rem;
+    margin-bottom: 0.6rem;
+}
+
+.intro__actions-select {
+    padding: 2rem 2.65rem;
+    border: 1px solid $black-light;
+    @extend %text;
+    color: white;
+    border-radius: 4px;
+
+    &:hover {
+        border-color: rgba(white, 0.4);
+    }
+}
+
+.intro__input-container {
+    padding: 2rem 2.65rem;
+    border: 1px solid $black-light;
+    @extend %text;
+    color: white;
+    border-radius: 4px;
+
+    &:hover,
+    :focus > .intro__input-container {
+        border-color: white;
+    }
+
+    input {
+        border: none;
+        background: none;
+        font-family: inherit;
+        color: white;
+
+        &::placeholder {
+            font-family: inherit;
+            color: white;
+            opacity: 1;
+        }
+    }
+
+    &:hover {
+        border-color: rgba(white, 0.4);
+    }
+}
+
+.intro__button {
+    margin-top: 3.85rem;
+}
+
+.intro__checkbox {
+    margin-top: 4rem;
+}

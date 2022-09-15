@@ -40,8 +40,12 @@ html {
 .container {
     max-width: 1600px;
     margin: 0 auto;
-    padding: 0 6.5rem;
+    padding: 0 19rem;
     width: 100%;
+
+    &--lg {
+        padding: 0 6.5rem;
+    }
 
     @media screen and (max-width: 1280px) {
         padding: 0 4rem;
@@ -54,3 +58,4 @@ html {
 
 @import "../components/Header/header.scss";
 @import "../components/Button/button.scss";
+@import "../components/Intro/intro.scss";

@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 const Header: React.FC = () => {
     return (
         <header className="header">
-            <div className="container">
+            <div className="container container--lg">
                 <div className="header__inner">
                     <div className="header__left">
                         <div className="header__logo">
