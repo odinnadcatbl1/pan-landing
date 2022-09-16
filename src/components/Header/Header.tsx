@@ -1,7 +1,35 @@
 import logo from "../../assets/logo.svg";
+import { IHeaderNav } from "../../types";
 import Button from "../Button/Button";
+import HeaderNav from "./HeaderNav";
 
 const Header: React.FC = () => {
+    const headerNavOptions: IHeaderNav = {
+        name: "Пункт 1",
+        options: [
+            {
+                name: "Меню 1",
+                link: "#",
+                descr: "Покупайте и продавайте",
+            },
+            {
+                name: "Меню 2",
+                link: "#",
+                descr: "Покупайте и продавайте",
+            },
+            {
+                name: "Меню 3",
+                link: "#",
+                descr: "Давайте подружимся",
+            },
+            {
+                name: "Меню 4",
+                link: "#",
+                descr: "Давайте подружимся",
+            },
+        ],
+    };
+
     return (
         <header className="header">
             <div className="container container--lg">
@@ -17,21 +45,14 @@ const Header: React.FC = () => {
 
                         <nav className="header__nav">
                             <ul className="header__nav-list">
-                                <li className="header__nav-item">
-                                    <a href="#">Пункт 1</a>
-                                </li>
-                                <li className="header__nav-item">
-                                    <a href="#">Пункт 2</a>
-                                </li>
-                                <li className="header__nav-item">
-                                    <a href="#">Пункт 3</a>
-                                </li>
-                                <li className="header__nav-item">
-                                    <a href="#">Пункт 4</a>
-                                </li>
-                                <li className="header__nav-item">
-                                    <a href="#">Пункт 5</a>
-                                </li>
+                                <HeaderNav
+                                    name={headerNavOptions.name}
+                                    options={headerNavOptions.options}
+                                />
+                                <HeaderNav name={"Пункт 2"} />
+                                <HeaderNav name={"Пункт 3"} />
+                                <HeaderNav name={"Пункт 4"} />
+                                <HeaderNav name={"Пункт 5"} />
                             </ul>
                         </nav>
                     </div>
