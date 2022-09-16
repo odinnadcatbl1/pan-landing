@@ -1,3 +1,5 @@
+import React, { ReactElement } from "react";
+
 export interface IButton {
     className?: string;
     text: string;
@@ -17,4 +19,10 @@ export interface IHeaderNav {
 export interface ISelect {
     placeholder: string;
     options: string[];
+}
+
+export interface ICheckbox {
+    label: ReactElement;
+    id: string;
+    onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }

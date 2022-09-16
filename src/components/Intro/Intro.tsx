@@ -1,8 +1,18 @@
 import introImg from "../../assets/intro-img.png";
 import Button from "../Button/Button";
 import Select from "../Select/Select";
+import Checkbox from "../Checkbox/Checkbox";
 
 const Intro: React.FC = () => {
+    const CheckboxLabel: React.FC = () => {
+        return (
+            <span>
+                Отправляя нам данную форму вы соглашаетесь с<br />
+                <a href="#">политикой конфиденциальности</a>
+            </span>
+        );
+    };
+
     return (
         <section className="intro">
             <div className="container">
@@ -45,11 +55,9 @@ const Intro: React.FC = () => {
                             <div className="intro__button">
                                 <Button text={"Кнопка действия"} />
                             </div>
-
-                            <input
-                                className="intro__checkbox"
-                                type="checkbox"
-                            />
+                            <div className="intro__checkbox">
+                                <Checkbox id={"id"} label={<CheckboxLabel />} />
+                            </div>
                         </form>
                     </div>
                     <div className="intro__right">
