@@ -6,7 +6,6 @@
     color: white;
     border-radius: 4px;
     cursor: pointer;
-    animation: submenu 0.2s;
 
     &:hover {
         border-color: rgba(white, 0.4);
@@ -26,8 +25,19 @@
     top: 5.8rem;
     background-color: $black-dark;
     width: 100%;
-    border: 1px solid rgba(white, 0.4);
+    border: 1px solid $black-light;
     border-radius: 4px;
+    animation: select o.1s ease;
+}
+
+@keyframes select {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: auto;
+    }
 }
 
 .select__options-item {
