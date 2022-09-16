@@ -1,0 +1,47 @@
+.select {
+    position: relative;
+    padding: 2rem 2.65rem;
+    border: 1px solid $black-light;
+    @extend %text;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    animation: submenu 0.2s;
+
+    &:hover {
+        border-color: rgba(white, 0.4);
+    }
+}
+
+.select__active {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.select__options {
+    position: absolute;
+    padding: 2rem 0.7rem;
+    left: 0;
+    top: 5.8rem;
+    background-color: $black-dark;
+    width: 100%;
+    border: 1px solid rgba(white, 0.4);
+    border-radius: 4px;
+}
+
+.select__options-item {
+    padding: 1.2rem 1.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &--active {
+        background-color: rgba($gray-light, 0.1);
+        border-radius: 3px;
+    }
+
+    &:hover {
+        background-color: rgba($gray-light, 0.1);
+        border-radius: 3px;
+    }
+}

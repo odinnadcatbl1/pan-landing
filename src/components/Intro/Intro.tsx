@@ -1,5 +1,6 @@
 import introImg from "../../assets/intro-img.png";
 import Button from "../Button/Button";
+import Select from "../Select/Select";
 
 const Intro: React.FC = () => {
     return (
@@ -17,9 +18,15 @@ const Intro: React.FC = () => {
                                     <div className="intro__actions-title">
                                         Выбрать город
                                     </div>
-                                    <div className="intro__actions-select">
-                                        Выбрать город
-                                    </div>
+                                    <Select
+                                        placeholder={"Выбрать город"}
+                                        options={[
+                                            "Казань",
+                                            "Москва",
+                                            "Санкт-Петербург",
+                                            "Оренбург",
+                                        ]}
+                                    />
                                 </div>
 
                                 <div className="intro__actions-item">

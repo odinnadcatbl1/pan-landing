@@ -13,3 +13,8 @@ export interface IHeaderNav {
     name: string;
     options?: IHeaderNavOption[];
 }
+
+export interface ISelect {
+    placeholder: string;
+    options: string[];
+}
