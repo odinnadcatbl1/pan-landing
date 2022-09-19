@@ -1,0 +1,73 @@
+.slider {
+    margin-top: 8.3rem;
+}
+
+.slider__title {
+    @extend %h1;
+    text-align: center;
+}
+
+.slider__items {
+    padding: 5.3rem 0;
+    position: relative;
+}
+
+.slider__item {
+    border-radius: 0.5rem;
+    background-color: #c4c4c4;
+    overflow: hidden;
+    max-width: 47rem;
+    position: relative;
+    max-height: 34rem;
+}
+
+.slider__img {
+    object-fit: contain;
+}
+
+.arrow {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 4px 20px rgba(143, 149, 172, 0.2);
+    z-index: 3;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &--right {
+        right: 0;
+    }
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.slider__stars {
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    bottom: 3.8rem;
+    left: 5.3rem;
+    gap: 7px;
+}
+
+.slider__star {
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.Carousel__RailWrapper-sc-hyhecw-1 {
+    overflow: hidden;
+}
