@@ -47,6 +47,7 @@ const Intro: React.FC = () => {
                                         <input
                                             className="intro__actions-input"
                                             placeholder="Введите e-mail"
+                                            type="email"
                                         />
                                     </div>
                                 </div>
