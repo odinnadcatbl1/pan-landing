@@ -3,6 +3,7 @@ import React, { ReactElement } from "react";
 export interface IButton {
     className?: string;
     text: string;
+    onClick?: () => void;
 }
 
 export interface IHeaderNavOption {
