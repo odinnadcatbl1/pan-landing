@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/pan-landing/build/static/css/main.411c8101.css",
+    "main.js": "/pan-landing/build/static/js/main.0bd8327b.js",
+    "static/media/slide-3.jpg": "/pan-landing/build/static/media/slide-3.f00327ac3db38d64e0b1.jpg",
+    "static/media/slide-1.jpg": "/pan-landing/build/static/media/slide-1.84908d73cae74a77d57f.jpg",
+    "static/media/slide-2.jpg": "/pan-landing/build/static/media/slide-2.9f33a83ea153d666d1a6.jpg",
+    "static/media/intro-img.png": "/pan-landing/build/static/media/intro-img.cbdbd1c693f75cdcb77e.png",
+    "static/media/Formular.woff": "/pan-landing/build/static/media/Formular.254f9c824c206145dfc1.woff",
+    "static/media/Formular-Bold.woff": "/pan-landing/build/static/media/Formular-Bold.65f8c38e595ba0515222.woff",
+    "static/media/Formular-Light.woff": "/pan-landing/build/static/media/Formular-Light.40042297f1cebc2995f1.woff",
+    "static/media/Formular.woff2": "/pan-landing/build/static/media/Formular.8e0d9e35afc128570c17.woff2",
+    "static/media/Formular-Bold.woff2": "/pan-landing/build/static/media/Formular-Bold.106d48c834cfb3554b2d.woff2",
+    "static/media/Formular-Light.woff2": "/pan-landing/build/static/media/Formular-Light.91907b54587b01cd3e56.woff2",
+    "static/media/logo.svg": "/pan-landing/build/static/media/logo.e89b5883f8edebc8bc38402b18a64617.svg",
+    "static/media/menu-icon.svg": "/pan-landing/build/static/media/menu-icon.f068e30a4611e68ae15d84e923ea6257.svg",
+    "static/media/star.svg": "/pan-landing/build/static/media/star.6df80331a0d2e2eada0f2b6bbea2da1d.svg",
+    "index.html": "/pan-landing/build/index.html",
+    "static/media/check-icon.svg": "/pan-landing/build/static/media/check-icon.e7dc9e5586987cb6a30e.svg",
+    "static/media/arrow-right.svg": "/pan-landing/build/static/media/arrow-right.5001f51b22c76bda1639d0fb75d10a4f.svg",
+    "static/media/arrow-left.svg": "/pan-landing/build/static/media/arrow-left.4244ddbff586aa02ba8f11d67a8b61be.svg",
+    "static/media/arrow-up.svg": "/pan-landing/build/static/media/arrow-up.eecd17efd7a2c09da59d004bf9744d9c.svg",
+    "static/media/arrow-down.svg": "/pan-landing/build/static/media/arrow-down.5e1776fc474c49527028df899e8d55ea.svg",
+    "main.411c8101.css.map": "/pan-landing/build/static/css/main.411c8101.css.map",
+    "main.0bd8327b.js.map": "/pan-landing/build/static/js/main.0bd8327b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.411c8101.css",
+    "static/js/main.0bd8327b.js"
+  ]
+}
