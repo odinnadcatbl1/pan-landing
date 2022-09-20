@@ -1,3 +1,4 @@
+import CustomMap from "./components/CustomMap/Map";
 import Header from "./components/Header/Header";
 import Intro from "./components/Intro/Intro";
 import ShowMore from "./components/ShowMore/ShowMore";
@@ -10,6 +11,7 @@ const App: React.FC = () => {
             <Intro />
             <Slider />
             <ShowMore />
+            <CustomMap />
         </div>
     );
 };

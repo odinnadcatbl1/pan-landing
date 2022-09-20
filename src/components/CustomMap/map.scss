@@ -1,0 +1,43 @@
+.map {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.map__inner {
+    overflow: hidden;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.placemark {
+    padding: 4rem 5rem;
+    width: 31rem;
+    height: 20rem;
+    border-radius: 5px;
+    z-index: 1000;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.placemark__title {
+    @extend %h5;
+}
+
+.placemark__text {
+    @extend %text;
+    padding: 1rem 0;
+}
+
+.placemark__link {
+    @extend %text;
+    color: $red;
+    text-decoration: underline;
+    transition: all 0.2s ease;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
