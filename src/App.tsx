@@ -1,4 +1,5 @@
 import CustomMap from "./components/CustomMap/Map";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import InfoBlock from "./components/InfoBlock/InfoBlock";
 import Intro from "./components/Intro/Intro";
@@ -14,6 +15,7 @@ const App: React.FC = () => {
             <ShowMore />
             <CustomMap />
             <InfoBlock />
+            <Footer />
         </div>
     );
 };

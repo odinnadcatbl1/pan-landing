@@ -31,7 +31,7 @@ const Header: React.FC = () => {
     };
 
     return (
-        <header className="header">
+        <header className="header" id="header">
             <div className="container container--lg">
                 <div className="header__inner">
                     <div className="header__left">

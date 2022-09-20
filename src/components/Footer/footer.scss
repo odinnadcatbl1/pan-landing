@@ -1,0 +1,72 @@
+.footer {
+    padding: 7rem 0 9rem;
+}
+
+.footer__button {
+    border-bottom: 1px solid rgba($gray-light, 0.2);
+    padding-bottom: 1.8rem;
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+            text-decoration-color: $black-light;
+        }
+    }
+}
+
+.anchorlink__descr {
+    @extend %text;
+}
+
+.anchorlink__img {
+    margin-left: 1rem;
+    border-radius: 50%;
+    background-color: $black-light;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__bottom {
+    display: grid;
+    width: 100%;
+    padding-top: 1.8rem;
+    align-items: center;
+    grid-template-columns: repeat(3, 33%);
+}
+
+.footer__address {
+    max-width: 29rem;
+    @extend %text;
+}
+
+.footer__tel {
+    @extend %h3;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    text-align: center;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.footer__link {
+    @extend %text;
+    color: $red;
+    transition: all 0.2s ease;
+    text-align: right;
+    text-decoration: underline;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
